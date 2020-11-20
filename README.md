@@ -25,7 +25,7 @@ Uses a css animation to make blinking happen, using either the React component `
 ### Example usage:
 
 ```html
-<blink>I should most definitely blink</blink>
+<Blink>I should most definitely blink</Blink>
 
 <blink>as should I</blink>
 
