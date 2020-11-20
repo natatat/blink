@@ -1,8 +1,16 @@
 blink,
-.blink {
-  /* css styles go here  */
+.blink,
+.react-blink {
+  animation: blink 0.25s linear infinite;
 }
 
-.react-blink {
-  /* react styles go here  */
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  51%,
+  100% {
+    opacity: 100;
+  }
 }
