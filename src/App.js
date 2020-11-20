@@ -1,7 +1,6 @@
 import './App.css';
-import { Blink } from './components/Blink'; 
+import { Blink } from './components/Blink';
 import './style/Blink.css';
-
 
 function App() {
   return (
