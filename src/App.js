@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>The Blink tag</h1>
+        <h1>
+          The <blink>Blink</blink> tag
+        </h1>
       </header>
       <div className="content">
         <span className="blink">Make this blink!</span>
