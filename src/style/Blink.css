@@ -1,7 +1,33 @@
 blink,
 .blink,
 .react-blink {
+  -webkit-animation: blink 0.25s linear infinite;
+  -moz-animation: blink 0.25s linear infinite;
   animation: blink 0.25s linear infinite;
+}
+
+@-webkit-keyframes blink {
+  0%,
+  50% {
+    opacity: 0;
+  }
+
+  51%,
+  100% {
+    opacity: 100;
+  }
+}
+
+@-moz-keyframes blink {
+  0%,
+  50% {
+    opacity: 0;
+  }
+
+  51%,
+  100% {
+    opacity: 100;
+  }
 }
 
 @keyframes blink {
@@ -9,6 +35,7 @@ blink,
   50% {
     opacity: 0;
   }
+
   51%,
   100% {
     opacity: 100;
